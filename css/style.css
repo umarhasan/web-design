@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/form_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background: #1557248c;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #3c4f20;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3e5521;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e6004e;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #35481b;
+    border-color: #35481b;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #fff;
+}
